@@ -1,0 +1,17 @@
+legend{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+
+form{
+    background-color: oldlace;
+
+}
+
+label{
+    width: 100%;
+    padding-left: 30px;
+}
+

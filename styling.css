@@ -1,0 +1,19 @@
+form{
+    padding: 50px;
+    margin: 60px;
+
+
+}
+
+label{
+    float: left;
+    width: 120px;
+    text-align: left;
+}
+legend{
+    font-weight: bold;
+    font-size: 70px;
+
+
+
+}

@@ -1,0 +1,22 @@
+body{
+    background-image: url("images/city.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+form{
+    padding-bottom: 300px;
+    padding-top: 300px;
+    padding-left: 500px;
+    padding-right: 300px;
+}
+input[type=submit]{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+}
+input[type=text],input[type=text]{
+    width: 89%;
+    border-radius: 10px;
+    height: 30px;
+

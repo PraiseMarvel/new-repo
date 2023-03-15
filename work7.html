@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="work7.css">
+      <script type="text/javascript">
+             function validate(){
+                  var name=document.getElementById("name");
+                   var subject=document.getElementById("subject");
+                    var phone=document.getElementById("phone");
+                     var email=document.getElementById("email");
+                      var message=document.getElementById("message");
+
+                      if(name.value==""||subject.value==""||phone.value==""||email.value==""||message.value==""||value==""){
+                          alert("Error! No blank parameters allowed");
+                          return false;
+                      }
+                      else{
+                          return true;
+                      }
+
+
+
+             }
+
+
+
+
+
+      </script>
+</head>
+<body>
+<form onsubmit="return validate()" action="example.html">
+    <legend>CONTACT US</legend><br>
+    <input placeholder="Name" type="text" id="name"><br><br>
+    <input placeholder="Subject" type="text" id="subject"><br><br>
+    <input placeholder="Phone" type="text" id="phone"><br><br>
+    <input placeholder="Email" type="text" id="email"><br><br>
+
+
+    <textarea name="" id="" cols="53" rows="10"></textarea><br><br>
+
+    <input type="submit" value="submit">
+
+
+
+
+
+</form>
+
+</body>
+</html>

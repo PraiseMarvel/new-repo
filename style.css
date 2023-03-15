@@ -1,0 +1,25 @@
+ form{
+    background-color: green;
+     padding: 40px;
+     margin: 50px;
+
+
+
+
+}
+label{
+    float: left;
+    width: 100px;
+    text-align: left;
+}
+legend{
+    font-weight: bold;
+    font-size: 30px;
+
+
+
+}
+
+
+
+

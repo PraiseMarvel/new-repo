@@ -1,0 +1,36 @@
+table{
+    height: 400px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th,td{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: green;
+}
+
+
+
+tr:hover{
+    background-color: aqua;
+}
+
+tr:nth-child(even){
+    background-color: blue;
+
+}
+
+legend{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}

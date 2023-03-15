@@ -1,0 +1,35 @@
+form{
+    background-color: white;
+     padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    box-shadow: 4px 3px 5px 5px;
+    border: 1px solid black;
+
+
+}
+legend{
+       font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    background-color: yellow;
+}
+input[type=text],input[type=text]{
+    width: 100%;
+    height: 20px ;
+}
+
+input[type=submit]{
+    width: 100%;
+    height: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+
+

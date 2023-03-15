@@ -1,0 +1,24 @@
+table, th,td{
+    border: 1px solid blue;
+    border-collapse: collapse;
+
+
+
+}
+table{
+    height: 300px;
+    width: 500px;
+    background-color: tomato;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th,td{
+ padding: 40px;
+
+}
+.row1{
+background-color: green;
+
+
+}

@@ -1,0 +1,17 @@
+table{
+    height: 400px;
+    width: 100%;
+    border: green;
+}
+
+table,th,td{
+    border: 4px solid green;
+}
+
+th{
+    background-color: orange;
+}
+
+.row1{
+    background-color: orange;
+}
